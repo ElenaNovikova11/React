@@ -1,0 +1,29 @@
+.BlokRightTextMy {
+  font-family: "Benzin-Bold";
+  font-size: 138px;
+  font-weight: 400;
+  text-align: left;
+  text-transform: uppercase;
+  transform: rotate(90deg);
+  margin-top: 54px;
+
+}
+@media screen and (max-width: 1600px){
+
+}
+
+@media screen and (max-width: 1400px){
+
+}
+
+@media screen and (max-width: 1250px){
+
+}
+
+@media screen and (max-width: 840px){
+
+}
+
+@media screen and (max-width: 800px){
+
+}

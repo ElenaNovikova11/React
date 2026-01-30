@@ -1,0 +1,136 @@
+.portfolio {
+    display: grid;
+    grid-template-columns: 300px 1fr;
+    gap: 40px;
+    padding: 100px 70px 0px 70px;
+}
+
+.work {
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+}
+
+.work__btn {
+    background-color: var(--color-site);
+    padding: 20px;
+    border-radius: 27px;
+    border: none;
+    color: var(--color-white);
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.work__btn:hover {
+    background-color: var(--color-violet);
+}
+
+.work__btn:active {
+    background-color: var(--color-green);
+}
+
+.portfolio__blocks {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.skill2 {
+    display: grid;
+    grid-template-columns: repeat(1, 500px);
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+    background-color: rgb(127, 42, 255);
+    border-radius: 25px;
+    padding: 15px;
+    color: rgb(255, 255, 255);
+    font-family: "Benzin-Bold";
+ 
+}
+
+.portfolio__img {
+    display: grid;
+    grid-template-columns: repeat(1, 480px);
+    justify-content: center;
+    padding-top: 15px;
+}
+
+.carousel-indicators {
+    bottom: -35px;
+}
+
+.portfolio__figma {
+    border-radius: 27px;
+    padding: 7px 25px;
+    transition: all 0.3s ease;
+    box-shadow: 0 0 10px var(--color-white);
+    font-size: 20px;
+    font-weight: 400;
+    cursor: pointer;
+    background-color: var(--color-green);
+    border: none;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    margin-left: 30px;
+}
+
+.portfolio__figma__text {
+    color: var(--color-site);
+    cursor: pointer;
+}
+
+@media screen and (max-width: 1600px) {}
+
+@media screen and (max-width: 1400px) {
+    .work__btn {
+        font-size: 11px;
+        padding: 6px;
+    }
+
+    .portfolio__figma {
+        font-size: 16px;
+        margin-left: 15px;
+        padding: 10px 15px;
+        margin-bottom: 10px;
+    }
+}
+
+@media screen and (max-width: 1250px) {
+    .portfolio__figma {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 840px) {
+    .work__btn {
+        font-size: 8px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .work {
+        gap: 10px;
+    }
+
+    .portfolio__figma {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .work__btn {
+        padding-left: 10px;
+        padding-right: 10px;
+        width: 150px;
+    }
+
+    .work {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+   
+}

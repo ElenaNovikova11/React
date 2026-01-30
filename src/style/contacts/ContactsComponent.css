@@ -1,0 +1,25 @@
+.contact {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-direction: column;
+    align-items: center;
+    color: var(--color-green);
+    min-height: calc(100vh - 80px);
+}
+
+.contact-text {
+    color: var(--color-white);
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.contact-data {
+    display: flex;
+    justify-content: center;
+    color: var(--color-white);
+    font-size: 30px;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+}
